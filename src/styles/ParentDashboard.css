@@ -1,0 +1,14 @@
+.parent-dashboard {
+    padding: 20px;
+    background-color: #eef6ff;
+    text-align: center;
+  }
+  
+  .parent-dashboard h1 {
+    color: #0073e6;
+  }
+  
+  .parent-dashboard p {
+    color: #333;
+  }
+  

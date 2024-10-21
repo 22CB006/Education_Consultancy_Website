@@ -1,0 +1,147 @@
+.signup-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+  background: url('../assets/bg.png') lightgray center / cover no-repeat;
+}
+
+.signup-background {
+  width: 50%;
+  max-width: 700px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-content {
+  text-align: center;
+}
+
+.brand-title {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+
+/* Box styling */
+.signup-box {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  top: 400px;
+  margin: 100px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-box h2 {
+  margin-bottom: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+}
+
+/* Google signup button */
+.google-signup-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 15px;
+  border: 1px solid rgba(145, 145, 145, 0.80);
+  background: white;
+  margin-bottom: 20px;
+}
+
+.google-icon {
+  margin-right: 10px;
+}
+
+/* Form elements */
+.signup-form input {
+  width: 90%; /* Same as login input width */
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 0 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.create-account-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #005120;
+  color: white;
+  border: none;
+}
+
+/* Signup link text */
+.login-text {
+  font-family: 'Inter', sans-serif;
+  color: #616161;
+  font-size: 14px;
+}
+
+.login-link {
+  color: #065FD4;
+  text-decoration: none;
+}
+
+.roles-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align roles to the left */
+  margin-right: 2rem; /* Spacing between roles and box */
+}
+
+.role-item {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 1.5rem; /* Add space between roles */
+}
+
+.role-item.active {
+  font-size: 28px;
+  font-weight: 800;
+  color: #FFF;
+}
+
+.role-item:hover {
+  transform: scale(1.05);
+}
+.role-item {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 1.5rem;
+}
+
+.role-item.active {
+  font-size: 28px;
+  font-weight: 800; /* Bold */
+  color: #FFF;
+}
+
+.role-item:hover {
+  font-weight: 800; /* Bold on hover */
+  transform: scale(1.05);
+}

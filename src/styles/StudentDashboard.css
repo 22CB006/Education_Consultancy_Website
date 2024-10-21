@@ -1,0 +1,14 @@
+.student-dashboard {
+    padding: 20px;
+    background-color: #e8f4e6;
+    text-align: center;
+  }
+  
+  .student-dashboard h1 {
+    color: #28a745;
+  }
+  
+  .student-dashboard p {
+    color: #555;
+  }
+  
