@@ -212,5 +212,11 @@
 .role-item:hover:not(.active) {
   font-weight: 800;
   transform: scale(1.09);
-  
+}
+
+.create-your-own {
+  background-image: url("../assets//Character\ Design.png");
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover;       /* Adjusts the image to cover the entire element */
+  background-position: center;  /* Centers the image within the element */
 }
