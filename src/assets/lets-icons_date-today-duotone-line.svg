@@ -1,0 +1,18 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="lets-icons:date-today-duotone-line">
+<g id="Mask group">
+<mask id="mask0_153_230" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="1" y="1" width="14" height="14">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M2 6.66667C2 5.40933 2 4.78133 2.39067 4.39067C2.78133 4 3.40933 4 4.66667 4H11.3333C12.5907 4 13.2187 4 13.6093 4.39067C14 4.78133 14 5.40933 14 6.66667V7.33333H2V6.66667Z" stroke="#C0C0C0" stroke-opacity="0.25" stroke-width="1.2"/>
+<path id="Vector_2" d="M12.6667 4H3.33333C2.59695 4 2 4.59695 2 5.33333V12.6667C2 13.403 2.59695 14 3.33333 14H12.6667C13.403 14 14 13.403 14 12.6667V5.33333C14 4.59695 13.403 4 12.6667 4Z" stroke="white" stroke-width="1.2"/>
+<path id="Vector_3" d="M4.66699 2V5.33333M11.3337 2V5.33333" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+</g>
+</g>
+</mask>
+<g mask="url(#mask0_153_230)">
+<path id="Vector_4" d="M0 0H16V16H0V0Z" fill="#919191"/>
+</g>
+</g>
+</g>
+</svg>
