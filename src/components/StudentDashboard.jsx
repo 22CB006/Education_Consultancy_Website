@@ -115,15 +115,7 @@ to`}</span>
           <span className="welcome-message-1-2-3-4">{` today?`}</span>
         </div>
         {/* Frame 301 */}
-        <section className="course-card-separator pos-abs">
-          <div className="separator-icon-wrapper pos-abs">
-            <div className="separator-icon-background pos-abs"></div>
-
-            <div className="separator-icon pos-abs">
-              <div className="nodeBg-232201 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
-            </div>
-          </div>
-        </section>
+       
         {/* Frame 261 */}
         <section className="course-card-character-design pos-abs">
           <div className="course-image-character-design pos-abs">
@@ -198,7 +190,7 @@ to`}</span>
         </section>
 
         <div className="get-ahead in-li-232210 pos-abs">
-          <span className="get-ahead in-li-232210-0">{`Get ahead in life is by getting started, no matter how small your steps are in the beginning.`}</span>
+          <span className="get-ahead in-li-232210-0">{``}</span>
         </div>
         {/* Frame 151 */}
         <section className="to-do-list-section pos-abs">

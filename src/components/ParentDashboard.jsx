@@ -237,16 +237,7 @@ const ParentDashboard = () => {
         <div className="user-name pos-abs">
           <span className="user-name-1">{`Arya`}</span>
         </div>
-        {/* mynaui:notification1 */}
-        <section className="notification-icon pos-abs">
-          <div className="notification-icon-dot pos-abs">
-            <div className="nodeBg-232558 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
-          </div>
-
-          <div className="notification-icon-bell pos-abs">
-            <div className="nodeBg-232557 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
-          </div>
-        </section>
+       
         {/* formkit:down1 */}
         <section className="user-dropdown-icon pos-abs">
           <div className="user-dropdown-arrow pos-abs">
@@ -275,9 +266,9 @@ Your `}</span>
         </div>
 
         <div className="last-update-text pos-abs">
-          <span className="last-update-text-1">{`Latest update added:`}</span>
+          <span className="last-update-text-1">{``}</span>
           <span className="last-update-text-1-2">{` `}</span>
-          <span className="last-update-text-1-2-3">{`March 12`}</span>
+          <span className="last-update-text-1-2-3">{``}</span>
         </div>
 
         <div className="upcoming-tests-title pos-abs">
