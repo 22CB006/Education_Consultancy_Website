@@ -98,7 +98,7 @@ body {
   padding: 0px;
   box-sizing: border-box;
 }
-.desktop-layout {
+.dashboard-layout {
   width: 100%;
   height: 100%;
   top: 0%;
@@ -109,7 +109,7 @@ body {
   overflow: hidden;
   background: #ffffffff;
 }
-.main-content {
+.main-content-area {
   width: 100%;
   height: 62.5%;
   top: 0%;
@@ -154,7 +154,7 @@ body {
   white-space: pre-wrap;
   color: #000000ff;
 }
-.quarter-selector {
+.chart-dropdown {
   width: 24.83%;
   height: 8.09%;
   top: 0.49%;
@@ -165,7 +165,7 @@ body {
   border-radius: 15px 15px 15px 15px;
   background: #5effefff;
 }
-.quarter-selector-arrow {
+.chart-dropdown-arrow {
   width: 11.11%;
   height: 72.73%;
   top: 13.64%;
@@ -179,8 +179,8 @@ body {
   opacity: 1;
   background-image: var(--image-0);
 }
-.quarter-selector-arrow-icon,
-.scroll-arrow-vector {
+.chart-dropdown-arrow-icon,
+.scroll-arrow-icon-vector {
   width: 108.08%;
   height: 29.72%;
   top: 35.22%;
@@ -191,7 +191,7 @@ body {
   transform-origin: 54.09% 14.78%;
   overflow: hidden;
 }
-.quarter-selector-text {
+.chart-dropdown-text {
   width: 42.59%;
   height: 63.64%;
   top: 18.18%;
@@ -202,7 +202,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.quarter-selector-text-1 {
+.chart-dropdown-text-1 {
   font-size: calc(14 * var(--ratio));
   letter-spacing: calc(0.14 * var(--ratio));
   line-height: calc(14 * var(--ratio));
@@ -235,7 +235,7 @@ body {
 .x-axis-label-q2-1,
 .x-axis-label-q3-1,
 .x-axis-label-q4-1,
-.last-update-text-1-2 {
+.latest-update-text-1-2 {
   font-size: calc(15 * var(--ratio));
   letter-spacing: calc(0.15 * var(--ratio));
   line-height: calc(15 * var(--ratio));
@@ -248,7 +248,7 @@ body {
   white-space: pre-wrap;
   color: #919191ff;
 }
-.chart-bar-q3 {
+.chart-bar-q2 {
   width: 6.9%;
   height: 57.35%;
   top: 23.53%;
@@ -260,7 +260,7 @@ body {
   border-radius: 5px 5px 5px 5px;
   background: #191919ff;
 }
-.chart-bar-q5 {
+.chart-bar-q4 {
   width: 6.9%;
   height: 52.94%;
   top: 27.94%;
@@ -272,7 +272,7 @@ body {
   border-radius: 5px 5px 5px 5px;
   background: #191919ff;
 }
-.chart-overlay-q2 {
+.chart-pattern-overlay-q2 {
   width: 6.9%;
   height: 48.77%;
   top: 31.86%;
@@ -293,7 +293,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.chart-overlay-q4 {
+.chart-pattern-overlay-q4 {
   width: 6.9%;
   height: 47.3%;
   top: 33.58%;
@@ -315,7 +315,7 @@ body {
   border-radius: 5px 5px 5px 5px;
   background: #191919ff;
 }
-.chart-bar-q2 {
+.chart-bar-q1-overlay {
   width: 6.9%;
   height: 45.34%;
   top: 35.54%;
@@ -327,7 +327,7 @@ body {
   border-radius: 5px 5px 5px 5px;
   background: #191919ff;
 }
-.chart-overlay-q3 {
+.chart-pattern-overlay-q3 {
   width: 6.9%;
   height: 45.34%;
   top: 35.54%;
@@ -337,7 +337,7 @@ body {
   transform: rotate(0deg);
   overflow: hidden;
 }
-.chart-bar-q4 {
+.chart-bar-q3 {
   width: 6.9%;
   height: 40.2%;
   top: 40.69%;
@@ -349,7 +349,7 @@ body {
   border-radius: 5px 5px 5px 5px;
   background: #191919ff;
 }
-.chart-overlay-q1 {
+.chart-pattern-overlay {
   width: 6.9%;
   height: 37.25%;
   top: 43.63%;
@@ -392,7 +392,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.chart-line {
+.x-axis-line {
   width: 90.8%;
   height: 0%;
   top: 80.88%;
@@ -529,7 +529,7 @@ body {
   opacity: 1;
   background-image: var(--image-2);
 }
-.options-icon {
+.chart-options-icon {
   width: 1.67%;
   height: 3.75%;
   top: 22.03%;
@@ -539,7 +539,7 @@ body {
   transform: rotate(0deg);
   overflow: hidden;
 }
-.options-icon-group {
+.chart-options-icon-group {
   width: 66.67%;
   height: 50%;
   top: 25%;
@@ -553,7 +553,7 @@ body {
   opacity: 1;
   background-image: var(--image-3);
 }
-.options-icon-dot-2 {
+.chart-options-icon-dot-2 {
   width: 31.25%;
   height: 41.67%;
   top: -4.17%;
@@ -568,7 +568,7 @@ body {
   opacity: 1;
   background-image: var(--image-4);
 }
-.options-icon-line-1 {
+.chart-options-icon-line-1 {
   width: 106.25%;
   height: 75%;
   top: 12.5%;
@@ -579,7 +579,7 @@ body {
   overflow: hidden;
   box-sizing: border-box;
 }
-.options-icon-dot-1 {
+.chart-options-icon-dot-1 {
   width: 31.25%;
   height: 41.67%;
   top: 62.5%;
@@ -610,7 +610,7 @@ body {
   border-radius: 50px 50px 50px 50px;
   background: #a90d00ff;
 }
-.attendance-rate-outline-circle {
+.attendance-rate-outer-border {
   width: 96.58%;
   height: 96.58%;
   top: 1.55%;
@@ -636,7 +636,7 @@ body {
   border-radius: 50%;
   background: #648e6bff;
 }
-.attendance-rate-background-circle {
+.attendance-rate-progress-circle-overlay {
   width: 84.47%;
   height: 84.47%;
   top: 7.76%;
@@ -647,7 +647,7 @@ body {
   border-radius: 50%;
   background: #f2bf56ff;
 }
-.attendance-rate-overlay-circle {
+.attendance-rate-progress-circle-mask {
   width: 84.47%;
   height: 84.47%;
   top: 7.76%;
@@ -768,7 +768,7 @@ body {
   border-top: 0px solid #313131e5;
   border-bottom: 0px solid #313131e5;
 }
-.attendance-rate-marker-square-5 {
+.attendance-rate-center-square-outer {
   width: 5.59%;
   height: 5.59%;
   top: 72.05%;
@@ -779,7 +779,7 @@ body {
   border-radius: 50px 50px 50px 50px;
   background: #b8fff8ff;
 }
-.attendance-rate-marker-square-6 {
+.attendance-rate-center-square-inner {
   width: 4.35%;
   height: 4.35%;
   top: 72.67%;
@@ -838,7 +838,7 @@ body {
   overflow: hidden;
   border-radius: 50px 50px 50px 50px;
 }
-.nav-dashboard {
+.nav-item-dashboard {
   width: 7.15%;
   height: 2.64%;
   top: 4.69%;
@@ -849,7 +849,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.nav-dashboard-1 {
+.nav-item-dashboard-1 {
   font-size: calc(18 * var(--ratio));
 
   line-height: calc(18 * var(--ratio));
@@ -862,7 +862,7 @@ body {
   white-space: pre-wrap;
   color: #000000ff;
 }
-.nav-academics {
+.nav-item-academics {
   width: 7.08%;
   height: 2.64%;
   top: 4.69%;
@@ -873,9 +873,9 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.nav-academics-1,
-.nav-teachers-1,
-.nav-parents-guide-1 {
+.nav-item-academics-1,
+.nav-item-teachers-1,
+.nav-item-parents-guide-1 {
   font-size: calc(18 * var(--ratio));
 
   line-height: calc(18 * var(--ratio));
@@ -888,7 +888,7 @@ body {
   white-space: pre-wrap;
   color: #000000ff;
 }
-.nav-teachers {
+.nav-item-teachers {
   width: 5.76%;
   height: 2.64%;
   top: 4.69%;
@@ -899,7 +899,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.nav-parents-guide {
+.nav-item-parents-guide {
   width: 9.03%;
   height: 2.64%;
   top: 4.69%;
@@ -1051,7 +1051,7 @@ body {
   opacity: 1;
   background-image: var(--image-9);
 }
-.user-dropdown-arrow {
+.user-dropdown-icon-arrow {
   width: 62.56%;
   height: 78.86%;
   top: 14.15%;
@@ -1158,7 +1158,7 @@ body {
   white-space: pre-wrap;
   color: #000000ff;
 }
-.last-update-text {
+.latest-update-text {
   width: 25.83%;
   height: 2.25%;
   top: 49.32%;
@@ -1169,7 +1169,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.last-update-text-1 {
+.latest-update-text-1 {
   font-size: calc(15 * var(--ratio));
   letter-spacing: calc(0.15 * var(--ratio));
   line-height: calc(15 * var(--ratio));
@@ -1182,7 +1182,7 @@ body {
   white-space: pre-wrap;
   color: #616161ff;
 }
-.last-update-text-1-2-3 {
+.latest-update-text-1-2-3 {
   font-size: calc(15 * var(--ratio));
   letter-spacing: calc(0.15 * var(--ratio));
   line-height: calc(15 * var(--ratio));
@@ -1297,7 +1297,7 @@ body {
   opacity: 1;
   background-image: var(--image-12);
 }
-.legend-dot {
+.test-day-indicator {
   width: 0.28%;
   height: 0.39%;
   top: 65.72%;
@@ -1307,7 +1307,7 @@ body {
   transform: rotate(0deg);
   overflow: hidden;
 }
-.calendar-day-1 {
+.upcoming-test-card-1 {
   width: 8.33%;
   height: 12.7%;
   top: 69.34%;
@@ -1325,8 +1325,8 @@ body {
     0px 18px 7px 0px rgba(0, 0, 0, 0.009999999776482582),
     0px 28px 8px 0px rgba(0, 0, 0, 0);
 }
-.calendar-day-1-number,
-.calendar-day-3-number {
+.upcoming-test-date-1,
+.upcoming-test-date-5 {
   width: 16.67%;
   height: 23.08%;
   top: 15.38%;
@@ -1337,9 +1337,9 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.calendar-day-1-number-1,
-.calendar-day-4-number-1,
-.calendar-day-5-number-1 {
+.upcoming-test-date-1-1,
+.upcoming-test-date-2-1,
+.upcoming-test-date-3-1 {
   font-size: calc(20 * var(--ratio));
   letter-spacing: calc(0.2 * var(--ratio));
   line-height: calc(20 * var(--ratio));
@@ -1352,7 +1352,7 @@ body {
   white-space: pre-wrap;
   color: #232324ff;
 }
-.calendar-day-1-name {
+.upcoming-test-day-1 {
   width: 41.67%;
   height: 13.85%;
   top: 70.77%;
@@ -1363,9 +1363,9 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.calendar-day-1-name-1,
-.calendar-day-4-name-1,
-.calendar-day-5-name-1 {
+.upcoming-test-day-1-1,
+.upcoming-test-day-2-1,
+.upcoming-test-day-3-1 {
   font-size: calc(12 * var(--ratio));
   letter-spacing: calc(0.12 * var(--ratio));
   line-height: calc(12 * var(--ratio));
@@ -1378,7 +1378,7 @@ body {
   white-space: pre-wrap;
   color: #a2a2a4ff;
 }
-.calendar-day-2 {
+.upcoming-test-card-4 {
   width: 8.33%;
   height: 12.7%;
   top: 69.34%;
@@ -1396,8 +1396,8 @@ body {
     0px 18px 7px 0px rgba(0, 0, 0, 0.009999999776482582),
     0px 29px 8px 0px rgba(0, 0, 0, 0);
 }
-.calendar-day-2-number,
-.calendar-day-4-number {
+.upcoming-test-date-4,
+.upcoming-test-date-2 {
   width: 17.5%;
   height: 23.08%;
   top: 15.38%;
@@ -1408,8 +1408,8 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.calendar-day-2-number-1,
-.calendar-day-3-number-1 {
+.upcoming-test-date-4-1,
+.upcoming-test-date-5-1 {
   font-size: calc(20 * var(--ratio));
   letter-spacing: calc(0.2 * var(--ratio));
   line-height: calc(20 * var(--ratio));
@@ -1422,7 +1422,7 @@ body {
   white-space: pre-wrap;
   color: #f7f7f7ff;
 }
-.calendar-day-2-event {
+.upcoming-test-subject-4 {
   width: 53.33%;
   height: 13.85%;
   top: 38.46%;
@@ -1433,8 +1433,8 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.calendar-day-2-event-1,
-.calendar-day-3-event-1 {
+.upcoming-test-subject-4-1,
+.upcoming-test-subject-5-1 {
   font-size: calc(12 * var(--ratio));
   letter-spacing: calc(0.12 * var(--ratio));
   line-height: calc(12 * var(--ratio));
@@ -1447,7 +1447,7 @@ body {
   white-space: pre-wrap;
   color: #f7f7f7ff;
 }
-.calendar-day-2-name {
+.upcoming-test-day-4 {
   width: 44.17%;
   height: 13.85%;
   top: 70.77%;
@@ -1458,8 +1458,8 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.calendar-day-2-name-1,
-.calendar-day-3-name-1 {
+.upcoming-test-day-4-1,
+.upcoming-test-day-5-1 {
   font-size: calc(12 * var(--ratio));
   letter-spacing: calc(0.12 * var(--ratio));
   line-height: calc(12 * var(--ratio));
@@ -1472,7 +1472,7 @@ body {
   white-space: pre-wrap;
   color: #6b6b6bff;
 }
-.calendar-day-3 {
+.upcoming-test-card-5 {
   width: 8.33%;
   height: 12.7%;
   top: 69.34%;
@@ -1490,7 +1490,7 @@ body {
     0px 18px 7px 0px rgba(0, 0, 0, 0.009999999776482582),
     0px 28px 8px 0px rgba(0, 0, 0, 0);
 }
-.calendar-day-3-event {
+.upcoming-test-subject-5 {
   width: 63.33%;
   height: 13.85%;
   top: 38.46%;
@@ -1501,7 +1501,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.calendar-day-3-name {
+.upcoming-test-day-5 {
   width: 61.67%;
   height: 13.85%;
   top: 70.77%;
@@ -1512,7 +1512,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.course-card-1 {
+.course-status-card-1 {
   width: 13.19%;
   height: 24.61%;
   top: 70.51%;
@@ -1534,11 +1534,11 @@ body {
   object-fit: cover;
   opacity: 1;
 }
-.course-1-image,
-.course-2-image,
-.course-3-image,
-.course-4-image,
-.course-5-image {
+.course-status-image-1,
+.course-status-image-2,
+.course-status-image-3,
+.course-status-image-4,
+.course-status-image-5 {
   width: 83.16%;
   height: 63.49%;
   top: 6.35%;
@@ -1549,7 +1549,7 @@ body {
   overflow: hidden;
   border-radius: 10px 10px 10px 10px;
 }
-.course-1-title {
+.course-status-title-1 {
   width: 66.84%;
   height: 8.33%;
   top: 74.6%;
@@ -1560,11 +1560,11 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.course-1-title-1,
-.course-2-title-1,
-.course-3-title-1,
-.course-4-title-1,
-.course-5-title-1 {
+.course-status-title-1-1,
+.course-status-title-2-1,
+.course-status-title-3-1,
+.course-status-title-4-1,
+.course-status-title-5-1 {
   font-size: calc(14 * var(--ratio));
   letter-spacing: calc(0.14 * var(--ratio));
   line-height: calc(14 * var(--ratio));
@@ -1577,7 +1577,7 @@ body {
   white-space: pre-wrap;
   color: #000000ff;
 }
-.course-1-instructor {
+.course-status-teacher-1 {
   width: 33.16%;
   height: 6.75%;
   top: 82.54%;
@@ -1588,7 +1588,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.course-1-instructor-1 {
+.course-status-teacher-1-1 {
   font-size: calc(11 * var(--ratio));
   letter-spacing: calc(0.11 * var(--ratio));
   line-height: calc(11 * var(--ratio));
@@ -1601,11 +1601,11 @@ body {
   white-space: pre-wrap;
   color: #000000ff;
 }
-.course-1-progress-bar-bg,
-.course-2-progress-bar-bg,
-.course-3-progress-bar-bg,
-.course-4-progress-bar-bg,
-.course-5-progress-bar-bg {
+.course-status-progress-bar-1,
+.course-status-progress-bar-2,
+.course-status-progress-bar-3,
+.course-status-progress-bar-4,
+.course-status-progress-bar-5 {
   width: 83.16%;
   height: 1.59%;
   top: 92.06%;
@@ -1617,7 +1617,7 @@ body {
   border-radius: 100px 100px 100px 100px;
   background: #c9fff1ff;
 }
-.course-1-progress-bar {
+.course-status-progress-1 {
   width: 57.37%;
   height: 1.59%;
   top: 92.06%;
@@ -1629,7 +1629,7 @@ body {
   border-radius: 100px 100px 100px 100px;
   background: #00a076ff;
 }
-.course-card-2 {
+.course-status-card-2 {
   width: 13.19%;
   height: 24.61%;
   top: 70.51%;
@@ -1641,7 +1641,7 @@ body {
   border-radius: 15px 15px 15px 15px;
   background: #fdfdf6ff;
 }
-.course-2-title {
+.course-status-title-2 {
   width: 55.26%;
   height: 8.33%;
   top: 74.6%;
@@ -1652,7 +1652,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.course-2-instructor {
+.course-status-teacher-2 {
   width: 36.84%;
   height: 6.75%;
   top: 82.54%;
@@ -1663,10 +1663,10 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.course-2-instructor-1,
-.course-3-instructor-1,
-.course-4-instructor-1,
-.course-5-instructor-1 {
+.course-status-teacher-2-1,
+.course-status-teacher-3-1,
+.course-status-teacher-4-1,
+.course-status-teacher-5-1 {
   font-size: calc(11 * var(--ratio));
   letter-spacing: calc(0.11 * var(--ratio));
   line-height: calc(11 * var(--ratio));
@@ -1679,7 +1679,7 @@ body {
   white-space: pre-wrap;
   color: #616161ff;
 }
-.course-2-progress-bar {
+.course-status-progress-2 {
   width: 36.32%;
   height: 1.59%;
   top: 92.06%;
@@ -1691,7 +1691,7 @@ body {
   border-radius: 100px 100px 100px 100px;
   background: #00a076ff;
 }
-.course-card-3 {
+.course-status-card-3 {
   width: 13.19%;
   height: 24.61%;
   top: 70.51%;
@@ -1713,7 +1713,7 @@ body {
   object-fit: cover;
   opacity: 1;
 }
-.course-3-title {
+.course-status-title-3 {
   width: 69.47%;
   height: 8.33%;
   top: 74.6%;
@@ -1724,7 +1724,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.course-3-instructor {
+.course-status-teacher-3 {
   width: 38.95%;
   height: 6.75%;
   top: 82.54%;
@@ -1735,7 +1735,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.course-3-progress-bar {
+.course-status-progress-3 {
   width: 69.47%;
   height: 1.59%;
   top: 92.06%;
@@ -1747,7 +1747,7 @@ body {
   border-radius: 100px 100px 100px 100px;
   background: #00a076ff;
 }
-.course-card-4 {
+.course-status-card-4 {
   width: 13.19%;
   height: 24.61%;
   top: 70.51%;
@@ -1769,7 +1769,7 @@ body {
   object-fit: cover;
   opacity: 1;
 }
-.course-4-title {
+.course-status-title-4 {
   width: 52.11%;
   height: 8.33%;
   top: 74.6%;
@@ -1780,7 +1780,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.course-4-instructor {
+.course-status-teacher-4 {
   width: 46.32%;
   height: 6.75%;
   top: 82.54%;
@@ -1791,7 +1791,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.course-4-progress-bar {
+.course-status-progress-4 {
   width: 38.95%;
   height: 1.59%;
   top: 92.06%;
@@ -1803,7 +1803,7 @@ body {
   border-radius: 100px 100px 100px 100px;
   background: #00a076ff;
 }
-.course-card-5 {
+.course-status-card-5 {
   width: 13.19%;
   height: 24.61%;
   top: 70.51%;
@@ -1825,7 +1825,7 @@ body {
   object-fit: cover;
   opacity: 1;
 }
-.course-5-title {
+.course-status-title-5 {
   width: 51.58%;
   height: 8.33%;
   top: 74.6%;
@@ -1836,7 +1836,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.course-5-instructor {
+.course-status-teacher-5 {
   width: 28.95%;
   height: 6.75%;
   top: 82.54%;
@@ -1847,7 +1847,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.course-5-progress-bar {
+.course-status-progress-5 {
   width: 12.11%;
   height: 1.59%;
   top: 92.06%;
@@ -1859,7 +1859,7 @@ body {
   border-radius: 100px 100px 100px 100px;
   background: #00a076ff;
 }
-.calendar-day-4 {
+.upcoming-test-card-2 {
   width: 8.33%;
   height: 12.7%;
   top: 83.59%;
@@ -1877,7 +1877,7 @@ body {
     0px 18px 7px 0px rgba(0, 0, 0, 0.009999999776482582),
     0px 29px 8px 0px rgba(0, 0, 0, 0);
 }
-.calendar-day-4-name {
+.upcoming-test-day-2 {
   width: 48.33%;
   height: 13.85%;
   top: 70.77%;
@@ -1888,7 +1888,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.calendar-day-5 {
+.upcoming-test-card-3 {
   width: 8.33%;
   height: 12.7%;
   top: 83.59%;
@@ -1906,7 +1906,7 @@ body {
     0px 18px 7px 0px rgba(0, 0, 0, 0.009999999776482582),
     0px 28px 8px 0px rgba(0, 0, 0, 0);
 }
-.calendar-day-5-number {
+.upcoming-test-date-3 {
   width: 15.83%;
   height: 23.08%;
   top: 15.38%;
@@ -1917,7 +1917,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.calendar-day-5-name {
+.upcoming-test-day-3 {
   width: 31.67%;
   height: 13.85%;
   top: 70.77%;
@@ -1928,7 +1928,7 @@ body {
   text-align: left;
   line-height: 0px;
 }
-.sun-icon {
+.smiley-face-icon {
   width: 7.78%;
   height: 10.94%;
   top: 83.69%;
@@ -1938,7 +1938,7 @@ body {
   transform: rotate(0deg);
   overflow: hidden;
 }
-.calendar-day-5-background {
+.smiley-face-background {
   width: 8.33%;
   height: 6.35%;
   top: 89.94%;
